@@ -1,9 +1,11 @@
 package com.crud.model;
 
+import lombok.Builder;
 import lombok.Data;
 
 @Data
-public class StudentDto {
+@Builder
+public class Student {
     private Long id;
 
     private String name;
